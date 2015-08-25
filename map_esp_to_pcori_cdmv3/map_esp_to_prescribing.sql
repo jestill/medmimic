@@ -1,0 +1,68 @@
+-- Create the prescribing table
+
+CREATE TABLE PCORI_CDMV3.PRESCRIBING (
+  PRESCRIBINGID      VARCHAR(50),  /* RANDOM */
+  PATID              VARCHAR(50),  /* MRN */
+  ENCOUNTERID        VARCHAR(50),  /* NULL */ 
+  RX_PROVIDERID      VARCHAR,      /* PROVIDER_ID */
+  RX_ORDER_DATE      DATE,         /* DATE */
+  RX_ORDER_TIME      CHAR(5),      /* NULL */
+  RX_START_DATE      DATE,         /* START_DATE */
+  RX_END_DATE        DATE,         /* END_DATE */
+  RX_QUANTITY        FLOAT,      /* QUANTITY */
+  RX_REFILLS         FLOAT,      /* REFILSS */
+  RX_DAYS_SUPPLY     FLOAT,      /* NULL */
+  RX_FREQUENCY       CHAR(2),      /* UN */ 
+  RX_BASIS           CHAR(2),      /* UN */
+  RXNORM_CUI         INTEGER,      /* LOOKUP */
+  RAW_RX_MED_NAME    VARCHAR,      /* NAME */
+  RAW_RX_FREQUENCY   VARCHAR,      /* NULL */
+  RAW_RXNORM_CUI     VARCHAR       /* CODE */
+);
+
+
+
+-- INSERT FROM ESP DATA
+INSERT INTO PCORI_CDMV3.PRESCRIBING (
+  PRESCRIBINGID,
+  PATID,
+  RX_PROVIDERID,
+  RX_ORDER_DATE,
+  RX_START_DATE,
+  RX_END_DATE,
+  RX_QUANTITY,
+  RX_REFILLS,
+  RX_FREQUENCY,
+  RX_BASIS,
+  RAW_RX_MED_NAME,
+  RAW_RXNORM_CUI
+)
+SELECT
+  CAST ((md5(random()::text || clock_timestamp()::text)::uuid) AS VARCHAR),
+  MRN             AS PATID,
+  PROVIDER_ID     AS RX_PROVIDERID,
+  DATE            AS RX_ORDER_DATE,
+  START_DATE      AS RX_START_DATE,
+  END_DATE        AS RX_END_DATE,
+  QUANTITY_FLOAT  AS RX_QUANTITY,
+  CAST (REFILLS AS FLOAT),
+  'UN'            AS RX_FREQUENCY,
+  'UN'            AS RX_BASIS,
+  NAME            AS RAW_RX_MED_NAME,
+  CODE            AS RAW_RXNORM_CUI
+FROM PUBLIC.EMR_PRESCRIPTION;
+
+
+-- TRY TO GET RXNORM
+
+
+-- The following will get codes that ca
+-- resonable be turned into CUIs
+SELECT DISTINCT(RAW_RXNORM_CUI),
+       LENGTH(RAW_RXNORM_CUI) AS CODE_LENGTH
+FROM PCORI_CDMV3.PRESCRIBING
+WHERE RAW_RXNORM_CUI LIKE '%xx'
+      AND LENGTH(RAW_RXNORM_CUI) = 11;
+
+-- IT WOULD TAKE SOME WORK TO CONVERT THESE
+-- FROM CURRENT SOURCE NDC CODE TO RXNORM CUIT

@@ -1,0 +1,75 @@
+-- ICD 9 Data DOWNLOADED FROM
+-- https://www.cms.gov/Medicare/Coding/ICD9ProviderDiagnosticCodes/codes.html
+
+--
+-- DIAGNOSIS
+--
+CREATE TABLE PUBLIC.ICD9_DX (
+  CODE VARCHAR(10),
+  NAME VARCHAR(150)
+);
+
+CREATE TABLE PUBLIC.ICD9_DX_STAGE (
+  ROW_DATA VARCHAR(250)
+);
+
+-- Load the text files as downloaded into staging table
+COPY PUBLIC.ICD9_DX_STAGE
+FROM 
+'/Users/jaestill/code/fake_data/esp/ICD9-CMS32_DESC_SHORT_DX.txt'
+WITH DELIMITER E'\t';
+
+-- Transfer from staging table to the usable table
+
+INSERT INTO PUBLIC.ICD9_DX (
+  CODE,
+  NAME
+)
+SELECT
+  TRIM (SUBSTRING (ROW_DATA, 1,5) ),
+  TRIM (SUBSTRING (ROW_DATA, 6) )
+FROM PUBLIC.ICD9_DX_STAGE;
+
+-- ADD INDEX
+CREATE INDEX IDX_CODE
+ON PUBLIC.ICD9_DX (CODE);
+
+
+CREATE INDEX IDX_NAME
+ON PUBLIC.ICD9_DX (NAME);
+
+
+
+
+--
+-- PROCEDURES
+-- 
+
+CREATE TABLE PUBLIC.ICD9_SG_STAGE (
+  ROW_DATA VARCHAR(250)
+)
+_
+
+CREATE TABLE PUBLIC.ICD9_SG (
+  CODE VARCHAR(10),
+  NAME VARCHAR(150)
+);
+
+
+COPY PUBLIC.ICD9_SG_STAGE
+FROM
+'/Users/jaestill/code/fake_data/esp/ICD9-CMS32_DESC_SHORT_SG.txt'
+WITH DELIMITER E'\t';
+
+
+INSERT INTO PUBLIC.ICD9_SG (
+  CODE,
+  NAME
+)
+SELECT
+  TRIM (SUBSTRING (ROW_DATA, 1,4) ),
+  TRIM (SUBSTRING (ROW_DATA, 5) )
+FROM PUBLIC.ICD9_SG_STAGE;
+
+
+-- Load the data into the table
