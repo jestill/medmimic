@@ -1,0 +1,229 @@
+BLOTO	Baseline Ori Transcripts of Omnipotence	Samantha Carter	7/27/1997	3/13/2007	1003	365	1825	null	null
+BLOTO	sample	1	DNA	DNA	null	0.98	RNAase	null	null
+BLOTO	sample	1	Whole Blood	Whole Blood	Phlebotomy	1	null	null	null
+BLOTO	sample	1	Buffy Coat	Buffy Coat	null	1	DNAase	null	null
+BLOTO	sample	2	Whole Blood	Whole Blood	Phlebotomy	0.01	null	null	null
+SNAKES	Biomarkers of Herpetophobia	Samantha Carter	7/27/1997	3/13/2007	500	45	5	Herpetophobia[F40.218]|control	0.5|0.5
+SNAKES	sample	1	Whole Blood	Whole Blood	Phlebotomy	1	null	null	null
+SNAKES	sample	1	Urine	Urine	Urine Collection	1	Sodium Azide | Protease Inhibitor	null	null
+SNAKES	sample	2	Urine	Urine	Urine Collection	0.98	Sodium Azide | Protease Inhibitor	null	null
+SNAKES	sample	3	Urine	Urine	Urine Collection	0.98	Sodium Azide | Protease Inhibitor	null	null
+SNAKES	sample	4	Urine	Urine	Urine Collection	1	Sodium Azide | Protease Inhibitor	null	null
+SNAKES	sample	4	Whole Blood	Whole Blood	Phlebotomy	1	null	null	null
+Icarus	Icarus Project P4X-351	Nicholas Rush	10/2/2009	5/9/2010	200	120	10	null	null
+Icarus	sample	1	Bone Marrow	Bone Marrow	Trephine	1	null	null	null
+Icarus	sample	2	Bone Marrow	Bone Marrow	Trephine	1	null	null	null
+DHARMA	Dept Heuristics & Res on Material Apps	Karen DeGroot	9/22/2004	5/23/2010	324	90	5	Commercial fixed-wing aircraft crash injuring occupant, init[V95.31XA]	1
+DHARMA	sample	1	Hair	Hair	Clipping	1	null	null	null
+DHARMA	sample	1	Toenail	Toenail	Clipping	1	null	null	null
+DHARMA	sample	2	Hair	Hair	Clipping	0.20	null	null	null
+DHARMA	sample	2	Toenail	Toenail	Clipping	0.20	null	null	null
+DHARMA	sample	3	Hair	Hair	Clipping	0.20	null	null	null
+DHARMA	sample	3	Toenail	Toenail	Clipping	0.20	null	null	null
+DHARMA	sample	4	Hair	Hair	Clipping	0.20	null	null	null
+DHARMA	sample	4	Toenail	Toenail	Clipping	0.20	null	null	null
+DHARMA	sample	5	Hair	Hair	Clipping	0.20	null	null	null
+DHARMA	sample	5	Toenail	Toenail	Clipping	0.20	null	null	null
+DHARMA	sample	6	Hair	Hair	Clipping	0.20	null	null	null
+DHARMA	sample	6	Toenail	Toenail	Clipping	0.20	null	null	null
+DHARMA	sample	7	Hair	Hair	Clipping	0.20	null	null	null
+DHARMA	sample	7	Toenail	Toenail	Clipping	0.20	null	null	null
+Xeno Path	Etiology of Xenomorphic Pathogenesis	Rodney McKay	7/16/2004	1/9/2009	3000	1	1	Retrovirus infections, not elsewhere classified[B33.3]	1
+Xeno Path	sample	1	Tissue Portion	Tissue Portion	Surgical Resection	0.8	FFPE	Lymph Node	Lymph Node
+Xeno Path	sample	1	Tissue Portion	Tissue Portion	Surgical Resection	0.2	FFPE	Spleen	Spleen
+Xeno Path	sample	1	Tissue Portion	Tissue Portion	Surgical Resection	0.3	FFPE	Tonsils	Tonsils
+Xeno Path	sample	1	Tissue Portion	Tissue Portion	Surgical Resection	0.05	FFPE	Thymus	Thymus
+PAL	Peanut Allergy Biomarkers	Rodney McKay	7/16/2004	1/9/2009	300	1	1	Allergy to peanuts[Z91.010]|control	0.6|0.4
+PAL	sample	1	Whole Blood	Whole Blood	Phlebotomy	1	DNAase	null	null
+PAL	sample	1	mRNA	mRNA	null	0.98	DNAase	null	null
+Batman	Chiropteran sapiens Contaminant Bioaccumulation	Sheldon Cooper	9/24/2007	1/10/2015	25	1	1	null	null
+Batman	sample	1	Hair	Hair	Clipping	1	null	null	null
+HERO	DC-Marvel Comparative Metabolomics	Sheldon Cooper	9/24/2007	1/10/2015	427	1	1	Genetic Disease[Z84.81]	1
+DC Met	sample	1	Saliva	Saliva	null	0.95	null	null	null
+DC Met	sample	1	Urine	Urine	Urine Collection	0.98	Sodium Azide / Protease Inhibitor	null	null
+Miscreant Hematology	Miscreant Hematology	Dexter Morgan	10/1/2006	9/22/2013	130	1	1	null	null
+Miscreant Hematology	sample	1	Blood Spot	Blood Spot	Needle Aspiration	1	null	null	null
+DATA	DNA ATM Analysis	Leo Spacemen	10/11/2006	1/21/2013	1000	1	1	null	null
+DATA	sample	1	DNA	DNA	null	0.05	RNAase	null	null
+DATA	sample	1	Buccal Swab	Buccal Swab	Cheek Swab	1	null	null	null
+EyeD	Eyebrow Dilation	Nick Riviera	1/17/1989	1/10/2015	522	1	1	null	null
+EyeD	sample	1	Hair	Hair	Clipping	1	null	null	null
+MESS	Metabolites of Eletrical Stress Syndrome	Marvin Monroe	1/17/1989	1/10/2015	400	28	1	Electrocution[T75.4]|control	0.5|0.5
+MESS	sample	1	Urine	Urine	Urine Collection	0.99	null	null	null
+MESS	sample	1	Whole Blood	Whole Blood	Phlebotomy	0.99	null	null	null
+MESS	sample	1	Saliva	Saliva	null	0.99	null	null	null
+MESS	sample	2	Urine	Urine	Urine Collection	0.99	null	null	null
+MESS	sample	2	Whole Blood	Whole Blood	Phlebotomy	0.99	null	null	null
+MESS	sample	2	Saliva	Saliva	null	0.99	null	null	null
+PLUTO	Faux Neptune Study	Kidd Gnee	1/11/2010	1/10/2015	594	90	7	Focal and Segmental Glomerulosclerosis (FSGS)[N03.1] | Minimal Change Disease (MCD)[N04.0] | Membranous Nephropathy (MN)[N07.2]	0.25|0.25|0.5
+PLUTO	sample	1	RNA	RNA	Core Needle Biopsy	0.99	null	null	null
+PLUTO	sample	1	Serum	Serum	null	0.70	SST	null	null
+PLUTO	sample	1	Frozen Tissue Core	Frozen Tissue Core	Core Needle Biopsy	0.01	RNA Later	Kidney	Kidney
+PLUTO	sample	1	Whole Blood	Whole Blood	Phlebotomy	0.98	Proprietary Unknown	null	null
+PLUTO	sample	1	DNA	DNA	Core Needle Biopsy	0.03	Elution Buffer	null	null
+PLUTO	sample	1	Frozen Tissue	Frozen Tissue	Punch Biopsy	0.001	RNA Later	Kidney	Kidney
+PLUTO	sample	1	Plasma	Plasma	null	0.70	EDTA-K2	null	null
+PLUTO	sample	1	miRNA	miRNA	Core Needle Biopsy	0.05	null	null	null
+PLUTO	sample	1	Urine Pellet	Urine Pellet	Spot Urine	0.99	PI / RNA-Later	null	null
+PLUTO	sample	1	24hr Urine	24hr Urine	24hr Urine	0.10	Protease Inhibitor	null	null
+PLUTO	sample	1	Urine	Urine	Urine Collection	0.99	null	null	null
+PLUTO	sample	1	Urine Supernatant	Urine Supernatant	Spot Urine	0.99	null	null	null
+PLUTO	sample	1	FFPE Slide	FFPE Slide	null	0.001	null	Kidney	Kidney
+PLUTO	sample	2	RNA	RNA	Core Needle Biopsy	0.99	null	null	null
+PLUTO	sample	2	Serum	Serum	null	0.70	SST	null	null
+PLUTO	sample	2	Frozen Tissue Core	Frozen Tissue Core	Core Needle Biopsy	0.01	RNA Later	Kidney	Kidney
+PLUTO	sample	2	Whole Blood	Whole Blood	Phlebotomy	0.98	Proprietary Unknown	null	null
+PLUTO	sample	2	DNA	DNA	Core Needle Biopsy	0.03	Elution Buffer	null	null
+PLUTO	sample	2	Plasma	Plasma	null	0.70	RNA Later	null	null
+PLUTO	sample	2	miRNA	miRNA	Core Needle Biopsy	0.05	null	null	null
+PLUTO	sample	2	Urine Pellet	Urine Pellet	Spot Urine	0.99	PI / RNA-Later	null	null
+PLUTO	sample	2	24hr Urine	24hr Urine	24hr Urine	0.10	Protease Inhibitor	null	null
+PLUTO	sample	2	Urine	Urine	Urine Collection	0.99	null	null	null
+PLUTO	sample	2	Urine Supernatant	Urine Supernatant	Spot Urine	0.99	null	null	null
+PLUTO	sample	2	FFPE Slide	FFPE Slide	null	0.001	null	Kidney	Kidney
+PLUTO	sample	3	RNA	RNA	Core Needle Biopsy	0.99	null	null	null
+PLUTO	sample	3	Serum	Serum	null	0.70	SST	null	null
+PLUTO	sample	3	Frozen Tissue Core	Frozen Tissue Core	Core Needle Biopsy	0.01	RNA Later	Kidney	Kidney
+PLUTO	sample	3	Whole Blood	Whole Blood	Phlebotomy	0.98	Proprietary Unknown	null	null
+PLUTO	sample	3	DNA	DNA	Core Needle Biopsy	0.03	Elution Buffer	null	null
+PLUTO	sample	3	Plasma	Plasma	null	0.70	RNA Later	null	null
+PLUTO	sample	3	miRNA	miRNA	Core Needle Biopsy	0.05	null	null	null
+PLUTO	sample	3	Urine Pellet	Urine Pellet	Spot Urine	0.99	PI / RNA-Later	null	null
+PLUTO	sample	3	24hr Urine	24hr Urine	24hr Urine	0.10	Protease Inhibitor	null	null
+PLUTO	sample	3	Urine	Urine	Urine Collection	0.99	null	null	null
+PLUTO	sample	3	Urine Supernatant	Urine Supernatant	Spot Urine	0.99	null	null	null
+PLUTO	sample	3	FFPE Slide	FFPE Slide	null	0.001	null	Kidney	Kidney
+PLUTO	sample	4	RNA	RNA	Core Needle Biopsy	0.99	null	null	null
+PLUTO	sample	4	Serum	Serum	null	0.70	SST	null	null
+PLUTO	sample	4	Frozen Tissue Core	Frozen Tissue Core	Core Needle Biopsy	0.01	RNA Later	Kidney	Kidney
+PLUTO	sample	4	Whole Blood	Whole Blood	Phlebotomy	0.98	Proprietary Unknown	null	null
+PLUTO	sample	4	DNA	DNA	Core Needle Biopsy	0.03	Elution Buffer	null	null
+PLUTO	sample	4	Plasma	Plasma	null	0.70	RNA Later	null	null
+PLUTO	sample	4	miRNA	miRNA	Core Needle Biopsy	0.05	null	null	null
+PLUTO	sample	4	Urine Pellet	Urine Pellet	Spot Urine	0.99	PI / RNA-Later	null	null
+PLUTO	sample	4	24hr Urine	24hr Urine	24hr Urine	0.10	Protease Inhibitor	null	null
+PLUTO	sample	4	Urine	Urine	Urine Collection	0.99	null	null	null
+PLUTO	sample	4	Urine Supernatant	Urine Supernatant	Spot Urine	0.99	null	null	null
+PLUTO	sample	4	FFPE Slide	FFPE Slide	null	0.001	null	Kidney	Kidney
+PLUTO	sample	5	RNA	RNA	Core Needle Biopsy	0.99	null	null	null
+PLUTO	sample	5	Serum	Serum	null	0.70	SST	null	null
+PLUTO	sample	5	Frozen Tissue Core	Frozen Tissue Core	Core Needle Biopsy	0.01	RNA Later	Kidney	Kidney
+PLUTO	sample	5	Whole Blood	Whole Blood	Phlebotomy	0.98	Proprietary Unknown	null	null
+PLUTO	sample	5	DNA	DNA	Core Needle Biopsy	0.03	Elution Buffer	null	null
+PLUTO	sample	5	Plasma	Plasma	null	0.70	RNA Later	null	null
+PLUTO	sample	5	miRNA	miRNA	Core Needle Biopsy	0.05	null	null	null
+PLUTO	sample	5	Urine Pellet	Urine Pellet	Spot Urine	0.99	PI / RNA-Later	null	null
+PLUTO	sample	5	24hr Urine	24hr Urine	24hr Urine	0.10	Protease Inhibitor	null	null
+PLUTO	sample	5	Urine	Urine	Urine Collection	0.99	null	null	null
+PLUTO	sample	5	Urine Supernatant	Urine Supernatant	Spot Urine	0.99	null	null	null
+PLUTO	sample	5	FFPE Slide	FFPE Slide	null	0.001	null	Kidney	Kidney
+PLUTO	sample	6	RNA	RNA	Core Needle Biopsy	0.99	null	null	null
+PLUTO	sample	6	Serum	Serum	null	0.70	SST	null	null
+PLUTO	sample	6	Frozen Tissue Core	Frozen Tissue Core	Core Needle Biopsy	0.01	RNA Later	Kidney	Kidney
+PLUTO	sample	6	Whole Blood	Whole Blood	Phlebotomy	0.98	Proprietary Unknown	null	null
+PLUTO	sample	6	DNA	DNA	Core Needle Biopsy	0.03	Elution Buffer	null	null
+PLUTO	sample	6	Plasma	Plasma	null	0.70	RNA Later	null	null
+PLUTO	sample	6	miRNA	miRNA	Core Needle Biopsy	0.05	null	null	null
+PLUTO	sample	6	Urine Pellet	Urine Pellet	Spot Urine	0.99	PI / RNA-Later	null	null
+PLUTO	sample	6	24hr Urine	24hr Urine	24hr Urine	0.10	Protease Inhibitor	null	null
+PLUTO	sample	6	Urine	Urine	Urine Collection	0.99	null	null	null
+PLUTO	sample	6	Urine Supernatant	Urine Supernatant	Spot Urine	0.99	null	null	null
+PLUTO	sample	6	FFPE Slide	FFPE Slide	null	0.001	null	Kidney	Kidney
+PLUTO	sample	7	RNA	RNA	Core Needle Biopsy	0.99	null	null	null
+PLUTO	sample	7	Serum	Serum	null	0.70	SST	null	null
+PLUTO	sample	7	Frozen Tissue Core	Frozen Tissue Core	Core Needle Biopsy	0.01	RNA Later	Kidney	Kidney
+PLUTO	sample	7	Whole Blood	Whole Blood	Phlebotomy	0.98	Proprietary Unknown	null	null
+PLUTO	sample	7	DNA	DNA	Core Needle Biopsy	0.03	Elution Buffer	null	null
+PLUTO	sample	7	Plasma	Plasma	null	0.70	RNA Later	null	null
+PLUTO	sample	7	miRNA	miRNA	Core Needle Biopsy	0.05	null	null	null
+PLUTO	sample	7	Urine Pellet	Urine Pellet	Spot Urine	0.99	PI / RNA-Later	null	null
+PLUTO	sample	7	24hr Urine	24hr Urine	24hr Urine	0.10	Protease Inhibitor	null	null
+PLUTO	sample	7	Urine	Urine	Urine Collection	0.99	null	null	null
+PLUTO	sample	7	Urine Supernatant	Urine Supernatant	Spot Urine	0.99	null	null	null
+PLUTO	sample	7	FFPE Slide	FFPE Slide	null	0.001	null	Kidney	Kidney
+OGI	Ohio Genomics Initiative	Buck Eye	6/1/2012	1/10/2015	19005	1	1	null	null
+OGI	sample	1	Whole Blood	Whole Blood	Phlebotomy	1	null	null	null
+OGI	sample	1	DNA	DNA	Phlebotomy	0.10	DNA_B1000-TE	null	null
+LIMP	Longitudinal Invesigations in Management of Pain	Gregory House	11/16/2004	1/10/2015	354	30	3	Opiod Dependence[F11.20]|control	0.5|0.5
+LIMP	sample	1	Whole Blood	Whole Blood	Phlebotomy	1	null	null	null
+LIMP	sample	1	Buffy Coat	Buffy Coat	null	1	Proprietary Unknown	null	null
+LIMP	sample	1	DNA	DNA	null	0.6	null	null	null
+LIMP	sample	1	Urine	Urine	Urine Collection	1	null	null	null
+LIMP	sample	1	Hair	Hair	null	1	null	null	null
+LIMP	sample	2	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	3	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	4	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	5	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	6	Hair	Hair	null	0.98	null	null	null
+LIMP	sample	6	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	6	Blood	Blood	Phlebotomy	0.98	null	null	null
+LIMP	sample	7	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	8	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	9	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	10	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	11	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	12	Hair	Hair	null	0.98	null	null	null
+LIMP	sample	12	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	12	Blood	Blood	Phlebotomy	0.98	null	null	null
+LIMP	sample	13	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	14	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	15	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	16	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	17	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	18	Hair	Hair	null	0.98	null	null	null
+LIMP	sample	18	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	18	Blood	Blood	Phlebotomy	0.98	null	null	null
+LIMP	sample	19	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	20	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	21	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	22	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	23	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	24	Urine	Urine	Urine Collection	0.98	null	null	null
+LIMP	sample	24	Hair	Hair	null	0.98	null	null	null
+LIMP	sample	24	Blood	Blood	Phlebotomy	0.98	null	null	null
+HE-MAD	Hair Equivalent Metabolites of Addison' Disease	Gregory House	9/5/2006	1/1/2015	420	0	0	Primary adrenocortical insufficiency[E27.1]|Secondary adrenocortical insufficiency[E27.1]	0.6|0.4
+HE-MAD	sample	1	Blood	Blood	Phlebotomy	1	null	null	null
+HE-MAD	sample	1	Blood	Blood	Phlebotomy	1	null	null	null
+HE-MAD	sample	1	Urine	Urine	Urine Collection	0.99	null	null	null
+HE-MAD	sample	1	Hair	Hair	Clipping	1	null	null	null
+HE-MAD	sample	2	Blood	Blood	Phlebotomy	0.99	null	null	null
+HE-MAD	sample	2	Blood	Blood	Phlebotomy	0.99	null	null	null
+MOC	Metagenomics of Oncoviral Cancers	Peyton Rous	1/2/2008	1/10/2015	1200	60	5	Oncovirus as Disease Cause[B97.32]	1
+MOC	sample	1	Blood	Blood	Phlebotomy	1	null	null	null
+MOC	sample	1	DNA	DNA	null	1	null	null	null
+MOC	sample	1	Urine	Urine	Urine Collection	0.99	null	null	null
+MOC	sample	1	Saliva	Saliva	SalivaBio Kit	0.99	null	null	null
+MOC	sample	1	Ascitic Fluid	Ascitic Fluid	Ascitic Fluid Collection	0.001	null	null	null
+MOC	sample	1	Breast Milk	Breast Milk	Mechanial Expression	0.01	null	null	null
+MOC	sample	1	FFPE Slide	FFPE Slide	Surgical Resection	0.03	null	breast	breast
+MOC	sample	1	FFPE Slide	FFPE Slide	Surgical Resection	0.03	null	colon	colon
+MOC	sample	1	FFPE Slide	FFPE Slide	Surgical Resection	0.03	null	pancreas	pancreas
+MOC	sample	2	Blood	Blood	Phlebotomy	0.99	null	null	null
+MOC	sample	2	Urine	Urine	Urine Collection	0.99	null	null	null
+MOC	sample	2	Saliva	Saliva	SalivaBio Kit	0.99	null	null	null
+MOC	sample	2	Ascitic Fluid	Ascitic Fluid	Ascitic Fluid Collection	0.001	null	null	null
+MOC	sample	2	FFPE Slide	FFPE Slide	Surgical Resection	0.03	null	breast	breast
+MOC	sample	2	FFPE Slide	FFPE Slide	Surgical Resection	0.03	null	colon	colon
+MOC	sample	2	FFPE Slide	FFPE Slide	Surgical Resection	0.03	null	pancreas	pancreas
+MOC	sample	3	Blood	Blood	Phlebotomy	0.99	null	null	null
+MOC	sample	3	Urine	Urine	Urine Collection	0.99	null	null	null
+MOC	sample	3	Saliva	Saliva	SalivaBio Kit	0.99	null	null	null
+MOC	sample	3	Ascitic Fluid	Ascitic Fluid	Ascitic Fluid Collection	0.001	null	null	null
+MOC	sample	3	FFPE Slide	FFPE Slide	Surgical Resection	0.03	null	breast	breast
+MOC	sample	3	FFPE Slide	FFPE Slide	Surgical Resection	0.03	null	colon	colon
+MOC	sample	3	FFPE Slide	FFPE Slide	Surgical Resection	0.03	null	pancreas	pancreas
+MOC	sample	4	Blood	Blood	Phlebotomy	0.99	null	null	null
+MOC	sample	4	Urine	Urine	Urine Collection	0.99	null	null	null
+MOC	sample	4	Saliva	Saliva	SalivaBio Kit	0.99	null	null	null
+MOC	sample	4	Ascitic Fluid	Ascitic Fluid	Ascitic Fluid Collection	0.001	null	null	null
+MOC	sample	4	FFPE Slide	FFPE Slide	Surgical Resection	0.03	null	breast	breast
+MOC	sample	4	FFPE Slide	FFPE Slide	Surgical Resection	0.03	null	colon	colon
+MOC	sample	4	FFPE Slide	FFPE Slide	Surgical Resection	0.03	null	pancreas	pancreas
+MOC	sample	5	Blood	Blood	Phlebotomy	0.99	null	null	null
+MOC	sample	5	Urine	Urine	Urine Collection	0.99	null	null	null
+MOC	sample	5	Saliva	Saliva	SalivaBio Kit	0.99	null	null	null
+MOC	sample	5	Ascitic Fluid	Ascitic Fluid	Ascitic Fluid Collection	0.001	null	null	null
+MOC	sample	5	FFPE Slide	FFPE Slide	Surgical Resection	0.03	null	breast	breast
+MOC	sample	5	FFPE Slide	FFPE Slide	Surgical Resection	0.03	null	colon	colon
+MOC	sample	5	FFPE Slide	FFPE Slide	Surgical Resection	0.03	null	pancreas	pancreas
+END	END	END	1/2/2008	1/10/2015	END	END	END	END	END
