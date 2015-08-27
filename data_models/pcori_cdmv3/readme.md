@@ -1,7 +1,19 @@
-## Instantiating a test database for PCORnet Common Data Model v 3.0
+## Test Data : PCORnet Common Data Model v 3.0
 
-These data were initally generated as an [ESP fake data model](https://popmednet.atlassian.net/wiki/pages/viewpage.action?pageId=26345558) and were
-converted into a PCORI data model.
+This is a test dataset of fake data for the [PCORnet Common Data Model v3.0](http://www.pcornet.org/pcornet-common-data-model/). Fake data exist for the following tables:
+
+* DEMOGRAPHIC
+* ENCOUNTER
+* LAB_RESULT_CM
+* PRESCRIBING
+* ENROLLMENT
+* DIAGNOSIS
+* PROCEDURES
+* VITAL
+
+The procedures table currently needs additional work.
+
+These data were initally generated as an [ESP fake data model](https://popmednet.atlassian.net/wiki/pages/viewpage.action?pageId=26345558) and were converted into a PCORI data model.
 
 To load the data.
 
